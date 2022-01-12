@@ -1,3 +1,10 @@
+/* used to crate a 60px space between the fixed-top navbar and the showcase section. */
+body::before {
+	display: block;
+	content: " ";
+	height: 60px;
+}
+/* used to reduce the form input for email in the newsletter section to 50% on a screen size 768px */
 @media (min-width: 768px) {
 	.news-input {
 		width: 50%;
